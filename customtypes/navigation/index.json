@@ -1,0 +1,30 @@
+{
+  "format": "custom",
+  "id": "navigation",
+  "label": "Navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {
+            "width": 480
+          },
+          "thumbnails": []
+        }
+      },
+      "footer": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Footer",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,hyperlink,list-item,o-list-item,strong,em"
+        }
+      }
+    }
+  }
+}

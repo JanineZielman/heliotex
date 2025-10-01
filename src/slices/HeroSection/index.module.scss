@@ -1,0 +1,46 @@
+.video{
+  width: 100vw;
+  height: 100vh;
+  video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  color: white;
+  h1{
+    font-size: 64px;
+    font-weight: 300;
+    max-width: 600px;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
+  }
+  &::after{
+    content: "";
+    border-left: 1px solid black;
+    height: 100px;
+    position: absolute;
+    width: 1px;
+    bottom: -100px;
+    left: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .video{
+    &::after{
+      height: 50px;
+      bottom: -50px;
+      left: 10%;
+    }
+    h1{
+      font-size: 52px;
+    }
+  }
+}

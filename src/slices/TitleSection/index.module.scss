@@ -1,0 +1,23 @@
+.title{
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 24px;
+  h2{
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 24px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .title{
+    padding-top: 50px;
+    h2{
+      font-size: 30px;
+    }
+  }
+}

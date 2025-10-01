@@ -1,0 +1,29 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"content": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Cupidatat veniam id commodo cillum voluptate. Incididunt ea amet deserunt dolor incididunt occaecat enim deserunt ut culpa consequat aute culpa voluptate. Commodo irure anim quis adipisicing est laboris velit occaecat velit dolor veniam anim et quis."
+						}
+					}
+				]
+			},
+			"align_right": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]
