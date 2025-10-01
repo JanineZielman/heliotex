@@ -17,19 +17,23 @@ export type SliderItemProps = SliceComponentProps<Content.SliderItemSlice>;
 const SliderItem: FC<SliderItemProps> = ({ slice }) => {
   const settings = {
     infinite: false,
-    slidesToShow: 1, // show 1 full slide
+    slidesToShow: 1,
     slidesToScroll: 1,
-    centerMode: true, // peek next slide
-    centerPadding: "20%", // adjust peek width
+    centerMode: true, // desktop: peek effect
+    centerPadding: "20%", // desktop peek
+    adaptiveHeight: true, // 🔑 auto-adjust height per slide
     arrows: true,
     responsive: [
-    {
-      breakpoint: 900,
-      settings: {
-        centerPadding: "0%", // adjust peek width
-      }
-    }
-  ]
+      {
+        breakpoint: 900, // below 900px
+        settings: {
+          centerMode: false, // disable peek
+          centerPadding: "0px", // full width
+          arrows: false, // optional: hide arrows
+          adaptiveHeight: true,
+        },
+      },
+    ],
   };
 
   return (
