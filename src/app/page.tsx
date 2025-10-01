@@ -14,7 +14,7 @@ export default async function Home() {
 
   // <SliceZone> renders the page's slices.
   return (
-    <Layout page={home} nav={nav.results[0]}>
+    <Layout nav={nav.results[0]}>
       <SliceZone slices={home.data.slices} components={components} />
     </Layout>
   )

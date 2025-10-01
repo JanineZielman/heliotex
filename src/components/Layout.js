@@ -1,6 +1,6 @@
 import { PrismicRichText } from "@prismicio/react";
 
-export const Layout = ({ children, page, nav }) => {
+export const Layout = ({ children, nav }) => {
   const d = new Date();
   let year = d.getFullYear();
   return (
