@@ -19,7 +19,7 @@ const ImageSection: FC<ImageSectionProps> = ({ slice }) => {
       data-slice-variation={slice.variation}
       className={`${styles.image} ${slice.primary.full_width && styles.fullwidth}`}
     >
-      <PrismicNextImage field={slice.primary.image} />
+      <PrismicNextImage field={slice.primary.image}/>
       <PrismicRichText field={slice.primary.caption} />
     </section>
   );

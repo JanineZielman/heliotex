@@ -3,6 +3,8 @@ import { FC } from "react";
 import { Content } from "@prismicio/client";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 import { PrismicNextImage } from "@prismicio/next";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import styles from "./index.module.scss";
 
@@ -19,22 +21,24 @@ const SliderItem: FC<SliderItemProps> = ({ slice }) => {
     infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    centerMode: true, // desktop: peek effect
-    centerPadding: "20%", // desktop peek
-    adaptiveHeight: true, // 🔑 auto-adjust height per slide
+    centerMode: true,
+    centerPadding: "20%",
+    adaptiveHeight: true,
     arrows: true,
     responsive: [
       {
-        breakpoint: 900, // below 900px
+        breakpoint: 900,
         settings: {
-          centerMode: false, // disable peek
-          centerPadding: "0px", // full width
-          arrows: false, // optional: hide arrows
-          adaptiveHeight: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+          centerPadding: "0px",
+          arrows: false,
         },
       },
     ],
   };
+
 
   return (
     <section

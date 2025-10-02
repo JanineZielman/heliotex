@@ -16,6 +16,17 @@
           "thumbnails": []
         }
       },
+      "contact": {
+        "type": "Link",
+        "config": {
+          "label": "Contact",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": false
+        }
+      },
       "footer": {
         "type": "StructuredText",
         "config": {

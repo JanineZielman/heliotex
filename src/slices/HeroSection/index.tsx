@@ -10,7 +10,7 @@ const HeroSection: FC<SliceComponentProps<Content.HeroSectionSlice>> = ({ slice 
   return (
     <section className={styles.video}>
       {video && "url" in video && (
-        <video loop muted autoPlay>
+        <video loop muted autoPlay playsInline>
           <source src={video.url} type="video/mp4" />
         </video>
       )}

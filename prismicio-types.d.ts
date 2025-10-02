@@ -85,6 +85,23 @@ interface NavigationDocumentData {
   logo: prismic.ImageField<never>;
 
   /**
+   * Contact field in *Navigation*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: navigation.contact
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/fields/link
+   */
+  contact: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
+
+  /**
    * Footer field in *Navigation*
    *
    * - **Field Type**: Rich Text
