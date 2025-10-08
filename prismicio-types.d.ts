@@ -111,6 +111,17 @@ interface NavigationDocumentData {
    * - **Documentation**: https://prismic.io/docs/fields/rich-text
    */
   footer: prismic.RichTextField;
+
+  /**
+   * Footer Image field in *Navigation*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: navigation.footer_image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  footer_image: prismic.ImageField<never>;
 }
 
 /**

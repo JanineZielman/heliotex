@@ -35,6 +35,16 @@
           "allowTargetBlank": true,
           "multi": "paragraph,hyperlink,list-item,o-list-item,strong,em"
         }
+      },
+      "footer_image": {
+        "type": "Image",
+        "config": {
+          "label": "Footer Image",
+          "constraint": {
+            "width": 1920
+          },
+          "thumbnails": []
+        }
       }
     }
   }

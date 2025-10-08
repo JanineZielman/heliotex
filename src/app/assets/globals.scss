@@ -1,8 +1,4 @@
-@font-face {
-  font-family: inter;
-  font-display: auto;
-  src: url(./inter.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body,html{
   width: 100vw;
@@ -14,7 +10,7 @@ body,html{
 
 body {
   margin: 0;
-  font-family: inter;
+  font-family: Inter;
   opacity: 0;                
   animation: fadeIn 0.6s ease-in forwards; 
   background: #fff;    
@@ -31,7 +27,7 @@ body {
 
 .logo{
   width: 80%;
-  max-width: 700px;
+  max-width: 600px;
   left: 2vw;
   top: 24px;
   position: absolute;
@@ -41,7 +37,7 @@ body {
 .contact{
   position: absolute;
   right: 2vw;
-  top: 2vw;
+  top: 60px;
   a{
     color: white;
     text-decoration: none;
@@ -65,10 +61,10 @@ footer{
   width: 96vw;
   margin: auto;
   p{
-    text-align: center;
+    text-align: right;
     max-width: 600px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     font-weight: 200;
     margin-bottom: 24px;
     font-size: 18px;
@@ -85,6 +81,11 @@ footer{
     text-align: right;
     display: block;
   }
+}
+
+.footer-img{
+  width: 100%;
+  height: auto;
 }
 
 *:focus{

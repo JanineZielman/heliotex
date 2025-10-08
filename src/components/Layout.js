@@ -1,4 +1,4 @@
-import { PrismicNextLink } from "@prismicio/next";
+import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import { PrismicRichText } from "@prismicio/react";
 
 export const Layout = ({ children, nav }) => {
@@ -19,6 +19,7 @@ export const Layout = ({ children, nav }) => {
         <PrismicRichText field={nav.data.footer}/>
         <span>© {year}</span>
       </footer>
+      <PrismicNextImage className="footer-img" field={nav.data.footer_image}/>
     </div>
   );
 };
