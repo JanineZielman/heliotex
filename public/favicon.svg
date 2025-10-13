@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="392.04" height="392.04"><svg id="SvgjsSvg1025" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 392.04 392.04">
+  <defs>
+    <clipPath id="SvgjsClipPath1024">
+      <circle cx="196.02" cy="196.02" r="196.02" style="fill: none; stroke-width: 0px;"></circle>
+    </clipPath>
+    <clipPath id="SvgjsClipPath1023">
+      <rect x="-20.72" y="-6.42" width="427.91" height="392.04" style="fill: none; stroke-width: 0px;"></rect>
+    </clipPath>
+  </defs>
+  <g id="SvgjsG1022" data-name="Layer 2">
+    <g style="clip-path: url(#clippath);">
+      <g id="SvgjsG1021" data-name="Layer 2">
+        <rect x="-20.72" y="-6.42" width="427.91" height="392.04" style="fill: #92bdcc; stroke-width: 0px;"></rect>
+        <g style="clip-path: url(#clippath-1);">
+          <g>
+            <path d="m-452.5,191.56H130.1c-14.82,0-29.45-1.7-43.84-5.03L-487.99,68.65c10.75,42.27,22.6,83.31,35.49,122.9" style="fill: #6c1420; stroke-width: 0px;"></path>
+            <path d="m-516.54-60.72L53.34,175.81c-14.52-6.01-28.65-13.66-42.37-22.74L-538.14-195.32c6.01,45.67,13.22,90.63,21.6,134.6" style="fill: #6c1420; stroke-width: 0px;"></path>
+            <path d="m436.27,677.55l60.9-1131.36c-1.57,28.81-3.94,57.04-7.15,84.62l-120.03,1102.81c22.64-16.4,44.77-35.15,66.31-56.06" style="fill: #c7d7ef; stroke-width: 0px;"></path>
+            <path d="m301.08,775.5L481.15-306.46c-4.61,27.57-9.95,54.17-15.99,79.85L230.3,803.33c23.91-6.86,47.55-16.2,70.82-27.9" style="fill: #6c1420; stroke-width: 0px;"></path>
+            <path d="m158.45,816.4L449.76-168.79c-7.41,25.09-15.49,48.94-24.17,71.61L86.19,814.9c24.11,3.01,48.21,3.46,72.22,1.44" style="fill: #6c1420; stroke-width: 0px;"></path>
+            <path d="m14.54,798.5L404.39-46.93c-9.95,21.56-20.37,41.62-31.25,60.24L-55.94,767.72c23.27,12.68,46.81,22.93,70.48,30.78" style="fill: #6c1420; stroke-width: 0px;"></path>
+            <path d="m-124.29,722.57L347.06,53.89c-11.99,17.05-24.34,32.41-36.99,46.26L-189.96,663.9c21.4,21.89,43.34,41.49,65.71,58.68" style="fill: #6c1420; stroke-width: 0px;"></path>
+            <path d="m-252.03,591.96L280.22,129.22c-13.56,11.76-27.28,21.82-41.1,30.19L-310.03,507.87c18.6,30.12,38,58.15,58,84.09" style="fill: #6c1420; stroke-width: 0px;"></path>
+            <path d="m-363.02,412.34L206.83,175.81c-14.52,6.01-29.01,10.32-43.44,12.87l-574.22,117.87c14.99,36.98,30.95,72.27,47.78,105.79" style="fill: #6c1420; stroke-width: 0px;"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
